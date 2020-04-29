@@ -1,0 +1,198 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2, h3 {
+  font-weight: bold;
+  color: #eaeaea;
+}
+
+h3 {
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+hr {
+  width: 10%;
+  border-top: 2px;
+  border-style: solid;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #27496d !important;
+}
+
+.brand-text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  padding-left: 20px;
+}
+
+.navbar-custom .nav-link {
+  font-size: 1.5rem;
+}
+
+/* Intro Section */
+.intro-container {
+  text-align: center;
+  background-image: url(https://i.pinimg.com/originals/04/6a/b3/046ab355d855a9b788e69f79cff493e2.jpg);
+  background-repeat: no-repeat;
+}
+
+.intro-spacing, #card-h1, h1 {
+  margin: 3rem 0;
+}
+
+/* - Info Card */
+.info-card {
+  color: #eaeaea;
+  font-weight: bold;
+  background-image: url(../images/texas-star.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #112d4e;
+}
+
+.info-card .card-title, .pg-name {
+  color: #eaeaea;
+}
+
+.card-subtitle {
+  font-size: 1.5rem;
+}
+
+#card-subtitle, #card-p-bottom {
+  margin-bottom: 4rem;
+}
+
+.card-p {
+  font-size: 1.3rem;
+}
+
+/* Headers */
+.background-header {
+  background-image: url(https://coverfiles.alphacoders.com/486/48688.jpg);
+}
+
+.criminal-header {
+  background-image: url(https://fonteneleadvogados.adv.br/wp-content/uploads/2018/08/direito-penal-fontenele-advogados.jpg);
+}
+
+.links-header {
+  background-image: url(https://nebula.wsimg.com/29b66696e7398bc473d4682666b021f8?AccessKeyId=531592D248B589D87A56&disposition=0&alloworigin=1);
+  background-position: 100% 56%;
+}
+
+.faqs-header {
+  background-image: url(https://www.thearmorylife.com/wp-content/uploads/2020/03/hero-the-2nd-amendment-a-natural-right.jpg);
+  background-position: center;
+}
+
+.contact-header {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5965125e72af6598628ba893/1499899749549-CWESAHSZXYD9QRJLPIBH/ke17ZwdGBToddI8pDm48kFmfxoboNKufWj-55Bgmc-J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iXS6XmVv7bUJ418E8Yoc1hjuviiiZmrL38w1ymUdqq4JaGeFUxjM-HeS7Oc-SSFcg/image-asset.jpeg?format=2500w);
+  background-position: 75% 65%;
+}
+
+.pg-name {
+  padding-top: 15rem;
+  font-size: 3rem;
+  margin-left: 2%;
+}
+
+.highlight {
+  background-color: #112d4e;
+}
+
+/* Background Container */
+.background-container {
+  margin: 2rem auto;
+}
+
+.background-profile-pic {
+  display: inline-block;
+  padding: auto;
+}
+
+.background-text {
+  font-size: 1.5rem;
+  margin-right: 8rem;
+}
+
+.background-hr {
+  color: #112d4e;
+  margin: 2rem auto;
+}
+
+.background-h2 {
+  color: #112d4e;
+  margin: 3rem auto;
+}
+
+.background-icon {
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+.footer-container, .footer-link, .footer-link-p {
+  text-align: center;
+  background-color: #ffd460;
+  font-weight: bold;
+  color: #222831;
+}
+
+.footer-icon {
+  padding: 4% 3% 5rem 3%;
+}
+
+.footer-p, .footer-link-p {
+  font-size: 1.2rem;
+}
+
+.footer-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link-p:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 5rem 0 0 0;
+  font-size: 14px;
+}
+
+/* Media Queries */
+@media (max-width: 500px) {
+
+  /* Navbar */
+  .brand-text {
+    padding-left: 0;
+    font-size: 1.68rem;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+  }
+
+  /* Intro Section */
+  .profile-pic {
+    width: 50%;
+  }
+
+  /* Background Container */
+  .background-container {
+    text-align: center;
+  }
+
+  .background-text {
+    margin: auto;
+  }
+}
