@@ -8,7 +8,7 @@ h1 {
 
 h2, h3 {
   font-weight: bold;
-  color: #eaeaea;
+  color: #fff;
 }
 
 h3 {
@@ -20,6 +20,19 @@ hr {
   width: 10%;
   border-top: 2px;
   border-style: solid;
+}
+
+table {
+  table-layout: fixed;
+  width: 75%;
+}
+
+td {
+  width: 50%;
+  padding: 3% 2%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
 }
 
 /* Navbar */
@@ -41,8 +54,9 @@ hr {
 /* Intro Section */
 .intro-container {
   text-align: center;
-  background-image: url(https://i.pinimg.com/originals/04/6a/b3/046ab355d855a9b788e69f79cff493e2.jpg);
+  background-image: url(https://www.10wallpaper.com/wallpaper/2560x1600/1506/oversaturated-Cities_HD_Wallpapers_2560x1600.jpg);
   background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
 
 .intro-spacing, #card-h1, h1 {
@@ -76,6 +90,11 @@ hr {
 }
 
 /* Headers */
+
+.header {
+  display: inline-block;
+}
+
 .background-header {
   background-image: url(https://coverfiles.alphacoders.com/486/48688.jpg);
 }
@@ -109,9 +128,46 @@ hr {
   background-color: #112d4e;
 }
 
+/* Color Code Sections */
+
+.dark-bg, .blue-bg, .dark-bg-link, .dark-bg-link:hover {
+  color: #eaeaea;
+}
+
+.dark-bg-link, .dark-bg-link:hover {
+  text-decoration: underline;
+}
+
+.dark-bg {
+  background-color: #393e46;
+}
+
+.blue-bg {
+  background-color: #112d4e;
+}
+
+/* Cases We Handle */
+
+.cases-container {
+  padding: 4rem 0;
+}
+
+.cases-table {
+  text-align: center;
+  margin: auto;
+  border-style: solid;
+  border-width: 2px;
+  color: #fff;
+}
+
+.cases-img {
+  filter: invert(1);
+  padding-bottom: 15px;
+}
+
 /* Background Container */
 .background-container {
-  margin: 2rem auto;
+  margin: 3rem auto;
 }
 
 .background-profile-pic {
@@ -136,6 +192,56 @@ hr {
 
 .background-icon {
   margin-bottom: 2rem;
+}
+
+/* Links Body */
+
+/* Status Button */
+
+.button {
+  color: #40514e;
+}
+
+.button:hover {
+  color: #00b8a9;
+}
+
+.status-button {
+  margin: 3rem auto;
+  text-align: center;
+  background-color: #99ddcc;
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #00b8a9;
+}
+
+.btn-padding {
+  padding: 0 25%;
+}
+
+.button-text {
+  font-size: 1.5rem;
+  padding: 2rem 20% 0 20%;
+  font-weight: 700;
+}
+
+.btn-hr {
+  color: #00b8a9;
+}
+
+/* Links */
+
+.links-container {
+  padding-top: 3rem;
+  margin-left: 0;
+}
+
+.links-p {
+  font-size: 1.2rem;
+}
+.links-img {
+  width: 100%;
+  display: inline-block;
 }
 
 /* Footer */
@@ -194,5 +300,11 @@ hr {
 
   .background-text {
     margin: auto;
+  }
+
+  /* Cases We Handle */
+
+  .cases-h2 {
+    font-size: 1rem;
   }
 }
