@@ -2,6 +2,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 h1 {
   font-weight: 900;
 }
@@ -20,19 +24,6 @@ hr {
   width: 10%;
   border-top: 2px;
   border-style: solid;
-}
-
-table {
-  table-layout: fixed;
-  width: 75%;
-}
-
-td {
-  width: 50%;
-  padding: 3% 2%;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #fff;
 }
 
 /* Navbar */
@@ -54,13 +45,23 @@ td {
 /* Intro Section */
 .intro-container {
   text-align: center;
-  background-image: url(https://www.10wallpaper.com/wallpaper/2560x1600/1506/oversaturated-Cities_HD_Wallpapers_2560x1600.jpg);
+  background-image: url(../images/wallpaper.JPG);
+  background-position: top;
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-color: #888888;
+}
+
+.profile-pic {
+  width: 25%;
+  border-radius: 100%;
 }
 
 .intro-spacing, #card-h1, h1 {
   margin: 3rem 0;
+}
+
+.black-highlight {
+  background-color: #222831;
 }
 
 /* - Info Card */
@@ -134,7 +135,7 @@ td {
   color: #eaeaea;
 }
 
-.dark-bg-link, .dark-bg-link:hover {
+.dark-bg-link, .dark-bg-link:hover, .link {
   text-decoration: underline;
 }
 
@@ -144,6 +145,14 @@ td {
 
 .blue-bg {
   background-color: #112d4e;
+}
+
+.light-text {
+  color: #222831;
+}
+
+.blue-text, .link, .link:hover, .topic-hr {
+  color: #112d4e;
 }
 
 /* Cases We Handle */
@@ -158,6 +167,20 @@ td {
   border-style: solid;
   border-width: 2px;
   color: #fff;
+  table-layout: fixed;
+  width: 75%;
+}
+
+.cases-td {
+  width: 50%;
+  padding: 3% 2%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+}
+
+.cases-td:hover {
+  background-color: #112d4e;
 }
 
 .cases-img {
@@ -173,6 +196,7 @@ td {
 .background-profile-pic {
   display: inline-block;
   padding: auto;
+  width: 100%;
 }
 
 .background-text {
@@ -199,11 +223,11 @@ td {
 /* Status Button */
 
 .button {
-  color: #40514e;
+  color: #00b8a9;
 }
 
 .button:hover {
-  color: #00b8a9;
+  color: #fff;
 }
 
 .status-button {
@@ -242,6 +266,48 @@ td {
 .links-img {
   width: 100%;
   display: inline-block;
+}
+
+/* Criminal Defense */
+
+.topics-menu {
+  margin: 2rem 5%;
+  width: 100%;
+}
+
+.topics-td {
+  background-color: #27496d;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.topics-td:hover {
+  background-color: #eaeaea;
+  color: #27496d;
+}
+
+.topics-text-container {
+  padding: 0 5%;
+}
+
+.topic-title {
+  margin: 2rem auto;
+  color: #27496d;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.topic-text {
+  font-size: 1.5rem;
+}
+
+.topic-hr {
+  width: 50%;
+  margin-bottom: 2rem;
 }
 
 /* Footer */
@@ -291,6 +357,10 @@ td {
   /* Intro Section */
   .profile-pic {
     width: 50%;
+  }
+
+  .intro-container {
+    background-position: 40% 0;
   }
 
   /* Background Container */
