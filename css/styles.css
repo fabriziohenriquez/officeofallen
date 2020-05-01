@@ -310,10 +310,22 @@ hr {
   margin-bottom: 2rem;
 }
 
+/* Contact */
+
+.contact-container {
+  text-align: center; 
+}
+
+.contact-pic {
+  width: 30%;
+  border-radius: 100%;
+  margin-top: 2rem;
+}
+
 /* Footer */
 .footer-container, .footer-link, .footer-link-p {
   text-align: center;
-  background-color: #ffd460;
+  background-color: #99ddcc;
   font-weight: bold;
   color: #222831;
 }
