@@ -22,6 +22,10 @@ hr {
   border-style: solid;
 }
 
+.section-spacing {
+  margin: 2rem auto;
+}
+
 /* Navbar */
 .navbar-custom {
   background-color: #27496d !important;
@@ -84,15 +88,23 @@ hr {
 
 }
 
-/* Contact Container */
+/* Contact Btn */
 
 .contact-container {
   text-align: center;
 }
 
+.btn-success {
+  background-color: ;
+}
+
+.white-text {
+  color: #fff;
+}
+
 /* Military Container */
   .military-container {
-    background-color: grey;
+
   }
 
   .text-center {
@@ -103,10 +115,25 @@ hr {
   margin-bottom: 3rem;
 }
 
+.army-carousel-icon {
+  font-size: 7rem;
+  margin: 20px auto 100px auto;
+}
+
+.army-link {
+
+}
+
 /* Criminal Container */
 
 .crim-law-home-header {
   max-width: 100%;
+}
+
+/* Links Container */
+
+.links-container {
+  margin-bottom: 0;
 }
 
 /* Headers */
@@ -237,56 +264,6 @@ hr {
   margin-bottom: 2rem;
 }
 
-/* Links Body */
-
-/* Status Button */
-
-.button {
-  color: #00b8a9;
-}
-
-.button:hover {
-  color: #fff;
-}
-
-.status-button {
-  margin: 3rem auto;
-  text-align: center;
-  background-color: #99ddcc;
-  border-style: dashed;
-  border-width: 2px;
-  border-color: #00b8a9;
-}
-
-.btn-padding {
-  padding: 0 25%;
-}
-
-.button-text {
-  font-size: 1.5rem;
-  padding: 2rem 20% 0 20%;
-  font-weight: 700;
-}
-
-.btn-hr {
-  color: #00b8a9;
-}
-
-/* Links */
-
-.links-container {
-  padding-top: 3rem;
-  margin-left: 0;
-}
-
-.links-p {
-  font-size: 1.2rem;
-}
-.links-img {
-  width: 100%;
-  display: inline-block;
-}
-
 /* Criminal Defense */
 
 .topics-menu {
@@ -344,7 +321,7 @@ hr {
 /* Footer */
 .footer-container, .footer-link, .footer-link-p {
   text-align: center;
-  background-color: #99ddcc;
+  background-color: #79bac1;
   font-weight: bold;
   color: #222831;
 }
