@@ -12,13 +12,9 @@ h1 {
 
 h2, h3 {
   font-weight: bold;
-  color: #fff;
+  color: #222831;
 }
 
-h3 {
-  font-style: italic;
-  margin-bottom: 3rem;
-}
 
 hr {
   width: 10%;
@@ -45,23 +41,16 @@ hr {
 /* Intro Section */
 .intro-container {
   text-align: center;
-  background-image: url(../images/wallpaper.JPG);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-color: #888888;
+  margin:auto;
 }
 
 .profile-pic {
-  width: 25%;
+  width: 75%;
   border-radius: 100%;
 }
 
 .intro-spacing, #card-h1, h1 {
-  margin: 3rem 0;
-}
-
-.black-highlight {
-  background-color: #222831;
+  margin: 5% 0;
 }
 
 /* - Info Card */
@@ -79,15 +68,45 @@ hr {
 }
 
 .card-subtitle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-#card-subtitle, #card-p-bottom {
-  margin-bottom: 4rem;
+#card-title, #card-subtitle, #card-p-bottom {
+  margin-bottom: 2rem;
 }
 
 .card-p {
   font-size: 1.3rem;
+}
+
+.card-hr {
+  width: 100%;
+
+}
+
+/* Contact Container */
+
+.contact-container {
+  text-align: center;
+}
+
+/* Military Container */
+  .military-container {
+    background-color: grey;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+.vertical-spacing {
+  margin-bottom: 3rem;
+}
+
+/* Criminal Container */
+
+.crim-law-home-header {
+  max-width: 100%;
 }
 
 /* Headers */
@@ -313,7 +332,7 @@ hr {
 /* Contact */
 
 .contact-container {
-  text-align: center; 
+  text-align: center;
 }
 
 .contact-pic {
@@ -368,7 +387,7 @@ hr {
 
   /* Intro Section */
   .profile-pic {
-    width: 50%;
+    width: 75%;
   }
 
   .intro-container {
@@ -389,4 +408,5 @@ hr {
   .cases-h2 {
     font-size: 1rem;
   }
+
 }
