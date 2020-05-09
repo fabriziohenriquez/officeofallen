@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
 }
 
 a:hover {
@@ -95,7 +96,7 @@ hr {
 }
 
 .btn-success {
-  background-color: ;
+  background-color: #06623b;
 }
 
 .white-text {
@@ -103,6 +104,11 @@ hr {
 }
 
 /* Military Container */
+
+#army-home-pg-section {
+  margin-top: 0;
+}
+
   .military-container {
 
   }
@@ -111,8 +117,17 @@ hr {
     text-align: center;
   }
 
-.vertical-spacing {
+.title-spacing {
   margin-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.top-spacing {
+  padding-top: 2rem;
+}
+
+.bottom-spacing {
+  margin-bottom: 2rem;
 }
 
 .army-carousel-icon {
@@ -122,6 +137,10 @@ hr {
 
 .army-link {
 
+}
+
+.cta-text {
+  font-size: 1.4rem;
 }
 
 /* Criminal Container */
@@ -351,6 +370,10 @@ hr {
 
 /* Media Queries */
 @media (max-width: 500px) {
+
+  body {
+    font-size: 16px;
+  }
 
   /* Navbar */
   .brand-text {
