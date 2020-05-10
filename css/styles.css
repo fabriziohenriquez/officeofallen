@@ -47,11 +47,17 @@ hr {
 .intro-container {
   text-align: center;
   margin:auto;
+  background-image: url("../images/dallas-wallpaper.jpg");
+  background-position: center;
 }
 
 .profile-pic {
   width: 75%;
   border-radius: 100%;
+}
+
+.profile-text {
+  background-color: #112d4e;
 }
 
 .intro-spacing, #card-h1, h1 {
@@ -89,6 +95,29 @@ hr {
 
 }
 
+/* Background */
+
+.card-bg {
+  background-color: #112d4e;
+}
+
+.education-list, .awards-list, .organizations-list {
+  filter: invert(1);
+  text-align: left;
+}
+
+.education-list {
+  list-style-image: url("../images/education.png");
+}
+
+.awards-list {
+  list-style-image: url("../images/award.png")
+}
+
+.organizations-list {
+  list-style-image: url("../images/organizations.png");
+}
+
 /* Contact Btn */
 
 .contact-container {
@@ -104,10 +133,6 @@ hr {
 }
 
 /* Military Container */
-
-#army-home-pg-section {
-  margin-top: 0;
-}
 
   .military-container {
 
@@ -149,10 +174,19 @@ hr {
   max-width: 100%;
 }
 
+.criminal-hr {
+  width: 50%;
+}
+
 /* Links Container */
 
 .links-container {
   margin-bottom: 0;
+}
+
+.links-hr {
+  width: 75%;
+  margin: 3rem auto;
 }
 
 /* Headers */
