@@ -28,6 +28,7 @@ hr {
 }
 
 /* Navbar */
+
 .navbar-custom {
   background-color: #27496d !important;
 }
@@ -204,12 +205,13 @@ hr {
 }
 
 .criminal-header {
-  background-image: url(https://fonteneleadvogados.adv.br/wp-content/uploads/2018/08/direito-penal-fontenele-advogados.jpg);
+  background-image: url("../images/crim-law-header.JPG");
+  background-position: center;
 }
 
-.links-header {
-  background-image: url(https://nebula.wsimg.com/29b66696e7398bc473d4682666b021f8?AccessKeyId=531592D248B589D87A56&disposition=0&alloworigin=1);
-  background-position: 100% 56%;
+.military-header {
+  background-image: url("../images/military-header.png");
+  background-position: center;
 }
 
 .faqs-header {
