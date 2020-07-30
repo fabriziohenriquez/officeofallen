@@ -47,25 +47,26 @@ hr {
 }
 
 .logo-navbar {
-  width: 70%;
+  width: 30%;
 }
 
 .navbar-custom .nav-link {
   font-size: 1.5rem;
+  color: #fff!important;
 }
 
 /* Intro Section */
 .intro-container {
   text-align: center;
   margin:auto;
-  background-image: url("../images/dallas-wallpaper.jpg");
+  background-image: url("../images/dallas-wallpaper-dark.jpg");
   background-position: center;
   padding-bottom: 1rem;
 }
 
 .profile-pic {
-  width: 35%;
-  border-radius: 100%;
+  width: 20%;
+  border-radius: 10%;
 }
 
 .profile-text {
@@ -143,6 +144,10 @@ hr {
   background-color: #06623b;
 }
 
+.btn-success:hover {
+  background-color: #26c872;
+}
+
 .white-text {
   color: #fff;
 }
@@ -206,6 +211,40 @@ hr {
   width: 50%;
 }
 
+/* Criminal Topic Container */
+
+.topic-menu h1, #display-col h1  {
+  text-align: center;
+  color: #112d4e;
+  margin: 64px 0 16px 0;
+}
+
+.topic-menu p, #display-col p {
+  font-size: 16px;
+  line-height: 2;
+  font-weight: bold;
+  padding: 0 50px;
+}
+
+.tab-nav-container {
+  text-align: center;
+  padding: 0 50px;
+  margin-top: 1rem;
+}
+
+.tab-nav {
+  cursor: pointer;
+  list-style: none;
+  background-color: #eaeaea;
+  border-style: solid;
+  padding: 4px 0;
+}
+
+.active-tab {
+  background-color: #3f72af;
+  color: #112d4e;
+}
+
 /* Links Container */
 
 .links-container {
@@ -233,7 +272,7 @@ hr {
 }
 
 .criminal-header {
-  background-image: url("../images/crim-law-header.JPG");
+  background-image: url("../images/crim-law-header.png");
   background-position: center;
 }
 
@@ -258,9 +297,9 @@ hr {
   margin-left: 2%;
 }
 
-.highlight {
+/* .highlight {
   background-color: #112d4e;
-}
+} */
 
 /* Color Code Sections */
 
