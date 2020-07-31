@@ -520,4 +520,11 @@ hr {
     font-size: 1rem;
   }
 
+  /* Crim Def Topics Menu */
+  .topic-menu p, #display-col p {
+    font-size: 16px;
+    line-height: 2;
+    font-weight: bold;
+    padding: 0 5px;
+  }
 }
