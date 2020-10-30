@@ -39,19 +39,16 @@ hr {
   background-color: #27496d !important;
 }
 
-.brand-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
-  font-size: 2rem;
-  padding-left: 20px;
+.navbar-brand {
+  width: 800px;
 }
 
 .logo-navbar {
-  width: 30%;
+  width: 35%;
 }
 
-.navbar-custom .nav-link {
-  font-size: 1.5rem;
+.nav-link {
+  font-size: 1.2rem;
   color: #fff!important;
 }
 
@@ -100,7 +97,7 @@ hr {
   font-size: 1.2rem;
 }
 
-#card-title, #card-subtitle, #card-p-bottom {
+#card-title, #card-p-bottom {
   margin-bottom: 2rem;
 }
 
@@ -219,10 +216,9 @@ hr {
   margin: 64px 0 16px 0;
 }
 
-.topic-menu p, #display-col p {
+.topic-menu p, .topic-menu ol, #display-col p {
   font-size: 16px;
   line-height: 2;
-  font-weight: bold;
   padding: 0 50px;
 }
 
@@ -236,8 +232,9 @@ hr {
   cursor: pointer;
   list-style: none;
   background-color: #eaeaea;
-  border-style: solid;
-  padding: 4px 0;
+  border-style: double;
+  border-width: 0.2px 0.5px;
+  padding: 8px 0;
 }
 
 .active-tab {
@@ -279,16 +276,12 @@ hr {
 .military-header {
   background-image: url("../images/military-header.png");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
-.faqs-header {
-  background-image: url(https://www.thearmorylife.com/wp-content/uploads/2020/03/hero-the-2nd-amendment-a-natural-right.jpg);
-  background-position: center;
-}
-
-.contact-header {
-  background-image: url(https://images.squarespace-cdn.com/content/v1/5965125e72af6598628ba893/1499899749549-CWESAHSZXYD9QRJLPIBH/ke17ZwdGBToddI8pDm48kFmfxoboNKufWj-55Bgmc-J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iXS6XmVv7bUJ418E8Yoc1hjuviiiZmrL38w1ymUdqq4JaGeFUxjM-HeS7Oc-SSFcg/image-asset.jpeg?format=2500w);
-  background-position: 75% 65%;
+.about-header {
+  background-image: url("../images/about-header.png");
+  background-position: 50% 20%;
 }
 
 .pg-name {
@@ -488,6 +481,14 @@ hr {
     font-size: 1.68rem;
   }
 
+  .navbar-brand {
+    width: auto;
+  }
+
+  .logo-navbar {
+    width: 65%;
+  }
+
   .nav-link {
     font-size: 1.2rem;
   }
@@ -526,5 +527,10 @@ hr {
     line-height: 2;
     font-weight: bold;
     padding: 0 5px;
+  }
+
+  /* Military Header */
+  .military-header {
+    background-position: 20%;
   }
 }
